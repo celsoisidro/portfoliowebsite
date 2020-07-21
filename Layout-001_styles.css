@@ -1,0 +1,82 @@
+    * {
+        box-sizing: border-box
+    }
+    
+    body {
+        font-family: sans-serif;
+    }
+    
+    body {
+        background-color: whitesmoke;
+    }
+    
+    .navbar {
+        width: 100%;
+        background-color: #555;
+        overflow: auto;
+    }
+    
+    .navbar a {
+        float: left;
+        padding: 3px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        width: 11.5%;
+        text-align: center;
+    }
+    
+    .navbar a:hover {
+        background-color: whitesmoke;
+    }
+    
+    .navbar a.active {
+        background-color: #4CAF50;
+    }
+    
+    .image {
+        position: relative;
+        float: left;
+    }
+    
+    .image .text {
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+    
+    div p {
+        background-color: orange;
+    }
+    
+    div.ul {
+        list-style-image: url('img\gogeomatics_logo.png');
+    }
+    
+    .image {
+        position: relative;
+        float: left;
+    }
+    
+    .image .text {
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+    
+    #center {
+        display: table;
+        width: 53%;
+        margin: 20px auto;
+    }
+    
+    #center a {
+        display: table-cell;
+        text-align: center;
+        width: 16%;
+    }
+    
+    #center img {
+        width: 200%;
+        max-width: 200px;
+    }

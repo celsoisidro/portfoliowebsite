@@ -1,82 +1,123 @@
-    * {
-        box-sizing: border-box
-    }
-    
-    body {
-        font-family: sans-serif;
-    }
-    
-    body {
-        background-color: whitesmoke;
-    }
-    
-    .navbar {
-        width: 100%;
-        background-color: #555;
-        overflow: auto;
-    }
-    
-    .navbar a {
-        float: left;
-        padding: 3px;
-        color: white;
-        text-decoration: none;
-        font-size: 17px;
-        width: 11.5%;
-        text-align: center;
-    }
-    
-    .navbar a:hover {
-        background-color: whitesmoke;
-    }
-    
-    .navbar a.active {
-        background-color: #4CAF50;
-    }
-    
-    .image {
-        position: relative;
-        float: left;
-    }
-    
-    .image .text {
-        position: absolute;
-        top: 15%;
-        left: 2%;
-    }
-    
-    div p {
-        background-color: orange;
-    }
-    
-    div.ul {
-        list-style-image: url('img\gogeomatics_logo.png');
-    }
-    
-    .image {
-        position: relative;
-        float: left;
-    }
-    
-    .image .text {
-        position: absolute;
-        top: 15%;
-        left: 2%;
-    }
-    
-    #center {
-        display: table;
-        width: 53%;
-        margin: 20px auto;
-    }
-    
-    #center a {
-        display: table-cell;
-        text-align: center;
-        width: 16%;
-    }
-    
-    #center img {
-        width: 200%;
-        max-width: 200px;
-    }
+        * {
+            box-sizing: border-box
+        }
+        
+        body {
+            font-family: sans-serif;
+            background: whitesmoke;
+        }
+        
+        .navbar {
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+        }
+        
+        .navbar a {
+            float: left;
+            padding: 3px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            width: 11.5%;
+            text-align: center;
+        }
+        
+        .navbar a:hover {
+            background-color: whitesmoke;
+        }
+        
+        .navbar a.active {
+            background-color: #4CAF50;
+        }
+        
+        .image {
+            position: relative;
+            float: left;
+        }
+        
+        .image .text {
+            position: absolute;
+            top: 15%;
+            left: 2%;
+        }
+        
+        .image {
+            position: relative;
+            float: left;
+        }
+        
+        .image .text {
+            position: absolute;
+            top: 15%;
+            left: 2%;
+        }
+        
+        #center {
+            display: table;
+            width: 53%;
+            margin: 20px auto;
+        }
+        
+        #center a {
+            display: table-cell;
+            text-align: center;
+            width: 16%;
+        }
+        
+        #center img {
+            width: 200%;
+            max-width: 200px;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: 800px 800px;
+            grid-template-rows: 500px;
+            grid-gap: 20px;
+            padding: 20px;
+            padding-right: 20px;
+            background-color: whitesmoke;
+        }
+        
+        .grid-container>div {
+            background-color: white;
+            text-align: justify;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        
+        .grid-container2 {
+            display: grid;
+            grid-template-columns: 1600px;
+            grid-template-rows: 420px;
+            grid-gap: 0px;
+            padding: 20px;
+            padding-top: 0px;
+            background-color: whitesmoke;
+        }
+        
+        .grid-container2>div {
+            background-color: white;
+            text-align: justify;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        
+        .grid-container3 {
+            display: grid;
+            grid-template-columns: 800px 800px;
+            grid-template-rows: 220px;
+            grid-gap: 0px;
+            padding: 0px;
+            padding-top: 20px;
+            background-color: whitesmoke;
+        }
+        
+        .grid-container3>div {
+            background-color: gray;
+            text-align: justify;
+            padding: 20px;
+            padding-top: 0px;
+            font-size: 30px;
+        }

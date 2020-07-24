@@ -14,28 +14,39 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <div class="navbar">
-        <a class="active" href="Layout-001.html">Main</a>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="Layout-001.html" class="active">Main</a>
         <a href="world_view_page.html">World View</a>
         <a href="">Landmark</a>
         <a href="">Satellite</a>
         <a href="published_article.html">Published Article</a>
-        <a href="">Contact </a>
-
-        <div class="topnav">
-            <div class="search-container">
-                <form action="https://www.google.com/search" method="get" target="_blank">
-                    <input type="text" placeholder="Google Search" name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
+        <a href="">Contact</a>
+        <div class="search-container">
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" placeholder="Google Search" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
         </div>
-
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
-    </div>
-</head>
 
-<body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
     <br>
     <div id="center">
         <a href=".html"><img src="img\Box_button-Satellite.png" alt="Satellite variants"></a>

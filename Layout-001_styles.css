@@ -62,11 +62,11 @@ body {
 #center a {
     display: table-cell;
     text-align: center;
-    width: 16%;
+    width: auto;
 }
 
 #center img {
-    width: 200%;
+    width: auto;
     max-width: 200px;
 }
 

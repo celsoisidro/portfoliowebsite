@@ -19,7 +19,8 @@ body {
     color: white;
     text-decoration: none;
     font-size: 17px;
-    width: 11.5%;
+    width: auto;
+    max-width: 11.5%;
     text-align: center;
 }
 

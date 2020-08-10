@@ -173,7 +173,7 @@ img {
 .grid-container2 {
     display: grid;
     grid-template-columns: 1525px;
-    grid-template-rows: 420px;
+    grid-template-rows: 500px;
     grid-gap: 0px;
     padding: 20px;
     padding-top: 0px;
